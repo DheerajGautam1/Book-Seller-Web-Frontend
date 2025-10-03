@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Loader2, Mail, Lock, Link } from "lucide-react";
+import { Loader2, Mail, Lock, } from "lucide-react";
 import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { loginUser } from "../store/Slice/userSlice.js";
 
 const Login = () => {
